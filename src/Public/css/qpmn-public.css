@@ -1,0 +1,21 @@
+#qpmn-personalize-product {
+    display: inline-block;
+}
+
+#qpmn-builder-content {
+    width: 95%;
+    height: 95%;
+    padding: 10px;
+}
+
+#qpmn-builder-configuration-content {
+    width: auto;
+    max-width: 80%;
+    max-height: 80%;
+    min-width: 500px;
+}
+
+#qpmn-builder-toolbar {
+    text-align: right;
+    margin-right: 50px;
+}

@@ -1,0 +1,450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qp-market-network\n"
+"POT-Creation-Date: 2021-10-27 17:47+0800\n"
+"PO-Revision-Date: 2021-10-27 17:49+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src/WP/Core\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Admin/Qpmn_Admin_Menu.php:73 src/Admin/Qpmn_Admin_Menu.php:74
+msgid "Setup"
+msgstr "設定"
+
+#: src/Admin/Qpmn_Admin_Menu.php:82 src/Admin/Qpmn_Admin_Menu.php:83
+#: src/WC/UI/Tables/Product.php:26
+msgid "Products"
+msgstr "產品"
+
+#: src/Admin/Qpmn_Admin_Menu.php:92 src/Admin/Qpmn_Admin_Menu.php:93
+#: src/Admin/Qpmn_Admin_Menu.php:175 src/WC/UI/Tables/Order.php:41
+msgid "Orders"
+msgstr "訂單"
+
+#: src/Admin/Qpmn_Admin_Menu.php:102 src/Admin/Qpmn_Admin_Menu.php:103
+msgid "Debug Logs"
+msgstr "調試日誌"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:11
+msgid "Time period in"
+msgstr "時間段在"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:13
+msgid "Day(s)"
+msgstr "天"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:17
+#: src/Admin/partials/qpmn-admin-menu-orders.php:21
+#: src/Admin/partials/qpmn-admin-menu-products.php:12
+#: src/Admin/partials/qpmn-admin-menu-setup.php:98
+msgid "Click"
+msgstr "點擊"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:17
+#: src/Admin/partials/qpmn-admin-menu-orders.php:21
+#: src/Admin/partials/qpmn-admin-menu-products.php:12
+#: src/Admin/partials/qpmn-admin-menu-setup.php:98
+msgid "here"
+msgstr "這裡"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:17
+msgid "to enable/disable debug log"
+msgstr "啟用/禁用調試日誌"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:20
+#: src/Admin/partials/qpmn-admin-menu-setup.php:16
+msgid "Loading"
+msgstr "加載"
+
+#: src/Admin/partials/qpmn-admin-menu-logs.php:28
+msgid "No logs found"
+msgstr "未找到調試日誌"
+
+#: src/Admin/partials/qpmn-admin-menu-orders.php:16
+msgid "Next Update"
+msgstr "下次更新"
+
+#: src/Admin/partials/qpmn-admin-menu-orders.php:21
+msgid "to update schedule interval"
+msgstr "更新計劃間隔"
+
+#: src/Admin/partials/qpmn-admin-menu-products.php:11
+msgid "Created products"
+msgstr "已創建的產品"
+
+#: src/Admin/partials/qpmn-admin-menu-products.php:12
+msgid "to create default product"
+msgstr "創建默認產品"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:23
+#: src/Admin/partials/qpmn-admin-menu-setup.php:24
+msgid "Consumer key"
+msgstr "消費者金鑰 "
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:27
+#: src/Admin/partials/qpmn-admin-menu-setup.php:28
+msgid "Consumer secret"
+msgstr "消費者密鑰 "
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:31
+#: src/Admin/partials/qpmn-admin-menu-setup.php:32
+msgid "Partner ID"
+msgstr "合作夥伴ID"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:34
+msgid "Login"
+msgstr "登錄"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:37
+msgid "Logged in as"
+msgstr "登錄為"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:38
+msgid "Logout"
+msgstr "登出"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:44
+msgid "Select a default Product"
+msgstr "選擇默認產品"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:57
+msgid "Order Update Schedule"
+msgstr "訂單更新時間表"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:58
+msgid "Next scheduled"
+msgstr "下次預定"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:74
+msgid "Debug mode"
+msgstr "調試模式"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:84
+msgid "Enable"
+msgstr "啟用"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:95
+msgid "Disable"
+msgstr "禁用"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:98
+msgid "to view debug logs"
+msgstr "查看調試日誌"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:102
+msgid "Update Settings"
+msgstr "更新設置"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:119
+msgid "Category"
+msgstr "類別"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:137
+msgid "Tags"
+msgstr "標籤"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:154
+msgid "Create Product"
+msgstr "創建產品"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:168
+msgid "Step"
+msgstr "步驟"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:174
+msgid "Back"
+msgstr "上一步"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:175
+msgid "Next"
+msgstr "下一步"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:449
+msgid "Consumer key required"
+msgstr "需要消費者金鑰 "
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:457
+msgid "Consumer secret required"
+msgstr "需要消費者密鑰 "
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:578
+msgid "Account"
+msgstr "帳戶"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:583
+#: src/WC/UI/Tables/Product.php:25
+msgid "Product"
+msgstr "產品"
+
+#: src/Admin/partials/qpmn-admin-menu-setup.php:588
+msgid "Settings"
+msgstr "設置"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:3
+#: src/WC/QPMN_WC_Order.php:428 src/WC/QP_WC_Order.php:440
+#: src/WC/QP_WC_Order_Metabox.php:67 src/WC/UI/Tables/Order.php:423
+msgid "N/A"
+msgstr "不適用"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:6
+#: src/WC/UI/Tables/Order.php:40
+msgid "Order"
+msgstr "訂單"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:7
+msgid "Status"
+msgstr "狀態"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:8
+msgid "Subtotal"
+msgstr "小計"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:9
+msgid "Shipping"
+msgstr "運費"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:10
+msgid "Total"
+msgstr "總額"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box-content.php:11
+msgid "Last Sync at"
+msgstr "上次同步時間"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box.php:20
+msgid "Create Order"
+msgstr "創建訂單"
+
+#: src/Admin/partials/qpmn-admin-order-meta-box.php:21
+#: src/Admin/partials/qpmn-admin-order-meta-box.php:25
+msgid "Update Order"
+msgstr "更新訂單"
+
+#: src/Libs/Encryption.php:46 src/Libs/Encryption.php:51
+msgid "Please go to QP market nework setup page to login."
+msgstr "請到QP market network設置頁面登錄。"
+
+#: src/Public/js/qpmn-personalize-products.js:251
+#: src/WC/QPMN_WC_Product.php:167 src/WC/QP_WC_Product.php:167
+msgid "Customize"
+msgstr "定制"
+
+#: src/Public/js/qpmn-personalize-products.js:291
+msgid "Configuration"
+msgstr "設定"
+
+#: src/Public/js/qpmn-personalize-products.js:346
+msgid "Save"
+msgstr "保存"
+
+#: src/Public/js/qpmn-personalize-products.js:402
+msgid "Save Design"
+msgstr "保存設計"
+
+#: src/WC/QPMN_WC_Cart.php:46 src/WC/QP_WC_Cart.php:46
+msgid "Add to cart failed. Reason: customization required."
+msgstr "添加到購物車失敗。原因：需要定制。"
+
+#: src/WC/QPMN_WC_Cart.php:63 src/WC/QP_WC_Cart.php:62
+msgid ""
+"Add to cart failed. Reason: Could not able to genereate required design "
+"data. please contact shop CS for this issue."
+msgstr ""
+"添加到購物車失敗。原因：無法生成所需的設計數據。請聯繫商店 CS 解決此問題。"
+
+#: src/WC/QPMN_WC_Cart.php:139 src/WC/QP_WC_Cart.php:138
+#, php-format
+msgid ""
+"Customer could not add QP product to shopping cart. Please go to <a href="
+"\"%1$s\">Debug Logs</a> to check reason."
+msgstr ""
+
+#: src/WC/QPMN_WC_Order.php:109 src/WC/QP_WC_Order.php:104
+msgid "Preview"
+msgstr "預覽"
+
+#: src/WC/QPMN_WC_Order.php:113 src/WC/QP_WC_Order.php:108
+#, php-format
+msgid ""
+"Could not generate preview URL. Please go to <a href=\"%1$s\">Debug Logs</a> "
+"to check reason."
+msgstr ""
+
+#: src/WC/QPMN_WC_Order.php:125 src/WC/QP_WC_Order.php:120
+msgid "Design Preview"
+msgstr "設計預覽"
+
+#: src/WC/QPMN_WC_Order.php:293 src/WC/QP_WC_Order.php:288
+msgid "No order item found"
+msgstr "未找到訂單商品"
+
+#: src/WC/QPMN_WC_Order.php:314
+msgid "API key verify failed. please verify your QPMN api key."
+msgstr "API 密鑰驗證失敗。 請驗證您的 QPMN api 密鑰"
+
+#: src/WC/QPMN_WC_Order.php:448 src/WC/QP_WC_Order.php:460
+msgid "Update QPMN order failed."
+msgstr "更新 QPMN 訂單失敗."
+
+#: src/WC/QPMN_WC_Order.php:454 src/WC/QP_WC_Order.php:466
+#, php-format
+msgid "Update QPMN order failed. error message:%1$s"
+msgstr "更新 QPMN 訂單失敗。<br>錯誤＃ %1$s"
+
+#: src/WC/QPMN_WC_Order.php:460 src/WC/QP_WC_Order.php:472
+#, php-format
+msgid "QPMN order status changed: <br>%1$s >>> %2$s"
+msgstr "QPMN 訂單狀態更改： <br>%1$s >>> %2$s"
+
+#: src/WC/QPMN_WC_Order.php:489 src/WC/QP_WC_Order.php:501
+#, php-format
+msgid "Create QPMN order failed. <br>error# %1$s <br>error message: %2$s"
+msgstr "創建 QPMN 訂單失敗。<br>錯誤＃ %1$s<br>錯誤信息:%2$s"
+
+#: src/WC/QPMN_WC_Order.php:492 src/WC/QP_WC_Order.php:504
+#, php-format
+msgid "QPMN order create successful. <br>order# %s"
+msgstr "QPMN 訂單創建成功。 <br>訂單# %s"
+
+#: src/WC/QP_WC_Order_Metabox.php:37
+msgid "QPMN order"
+msgstr "QPMN 訂單"
+
+#: src/WC/QP_WP_Option_CGP_Token.php:146
+#: src/WC/QP_WP_Option_Mocking_Token.php:158
+#, php-format
+msgid ""
+"QP market nework account verification failed. Please go to <a href=\"%1$s"
+"\">setup page</a> to login."
+msgstr ""
+
+#: src/WC/QP_WP_Option_Config.php:118
+msgid "hourly"
+msgstr "每小時"
+
+#: src/WC/QP_WP_Option_Config.php:119
+msgid "daily"
+msgstr "每日"
+
+#: src/WC/QP_WP_Option_Config.php:120
+msgid "weekly"
+msgstr "每週"
+
+#: src/WC/QP_WP_Option_Config.php:121
+msgid "disable"
+msgstr "禁用"
+
+#: src/WC/Schedule/Order.php:155
+#, php-format
+msgid ""
+"QP market nework order auto update failed. Please go to <a href=\"%1$s"
+"\">Debug Logs</a> to check reason."
+msgstr ""
+
+#: src/WC/UI/Tables/Order.php:130
+msgid "ID"
+msgstr ""
+
+#: src/WC/UI/Tables/Order.php:131
+msgid "Title"
+msgstr "標題"
+
+#: src/WC/UI/Tables/Order.php:132
+msgid "Order Status"
+msgstr "訂單狀態"
+
+#: src/WC/UI/Tables/Order.php:133
+msgid "QPMN order Number"
+msgstr "QPMN 訂單號"
+
+#: src/WC/UI/Tables/Order.php:134
+msgid "QPMN order Status"
+msgstr "QPMN 訂單狀態"
+
+#: src/WC/UI/Tables/Order.php:135
+msgid "QPMN order Sync Message"
+msgstr "QPMN 訂單同步消息"
+
+#: src/WC/UI/Tables/Order.php:136
+msgid "Bulk Order"
+msgstr "批量訂購 "
+
+#: src/WC/UI/Tables/Order.php:170
+msgid "Update QPMN orders"
+msgstr "更新 QPMN 訂單"
+
+#: src/WC/UI/Tables/Order.php:330
+msgid "Update QPMN order"
+msgstr "更新 QPMN 訂單"
+
+#: src/WC/UI/Tables/Order.php:341
+msgid "Create QPMN order"
+msgstr "創建 QPMN 訂單"
+
+#: src/WC/UI/Tables/Product.php:113
+msgid "Name"
+msgstr "名稱"
+
+#: src/WC/UI/Tables/Product.php:114
+msgid "Stock"
+msgstr "庫存"
+
+#: src/WC/UI/Tables/Product.php:115
+msgid "Price"
+msgstr "價格"
+
+#: src/WC/UI/Tables/Product.php:116
+msgid "Date"
+msgstr "日期"
+
+#~ msgid "Consumer key missing"
+#~ msgstr "消費者密鑰 "
+
+#~ msgid "API key"
+#~ msgstr "API 密鑰"
+
+#, fuzzy
+#~| msgid "API key secret"
+#~ msgid "API secret key"
+#~ msgstr "API 密鑰秘密"
+
+#~ msgid "API Key"
+#~ msgstr "API 密鑰"
+
+#~ msgid "Select"
+#~ msgstr "選擇"
+
+#~ msgid "Email address"
+#~ msgstr "電子郵件地址"
+
+#~ msgid "Enter email"
+#~ msgstr "輸入電子郵件"
+
+#~ msgid "CODE_VERIFIER"
+#~ msgstr "密碼"
+
+#~ msgid "QPMN order Subtotal"
+#~ msgstr "QPMN 訂單小計"
+
+#~ msgid "QPMN order Shipping"
+#~ msgstr "QPMN 訂單運費"
+
+#~ msgid "QPMN order Total"
+#~ msgstr "QPMN 訂單總額"
+
+#~ msgid "QPMN order Last Sync"
+#~ msgstr "QPMN 訂單上次同步"
+
+#~ msgid "hello world"
+#~ msgstr "世界好"

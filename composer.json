@@ -1,0 +1,42 @@
+{
+    "scripts": {
+        "dev": "composer install  --optimize-autoloader",
+        "build": "composer install --no-dev --optimize-autoloader",
+        "less-bootstrap": "lessc src/Admin/css/bootstrap/qpmn-bootstrap-iso.less src/Admin/css/bootstrap/qpmn-bootstrap-iso.css",
+        "less-qpmn-admin": "lessc src/Admin/css/qpmn-admin-iso.less src/Admin/css/qpmn-admin-iso.css",
+        "less-qpmn-public": "lessc src/Public/css/qpmn-public-iso.less src/Public/css/qpmn-public-iso.css",
+        "less-bootstrap-minify": "lessc -clean-css='--s1' src/Admin/css/bootstrap/qpmn-bootstrap-iso.less src/Admin/css/bootstrap/qpmn-bootstrap-iso.min.css",
+        "less-qpmn-admin-minify": "lessc -clean-css='--s1' src/Admin/css/qpmn-admin-iso.less src/Admin/css/qpmn-admin-iso.min.css",
+        "less-qpmn-public-minify": "lessc -clean-css='--s1' src/Public/css/qpmn-public-iso.less src/Public/css/qpmn-public-iso.min.css",
+        "less-qpmn": " composer run less-bootstrap && composer run less-qpmn-admin && composer run less-qpmn-public",
+        "less-qpmn-minify": " composer run less-bootstrap-minify && composer run less-qpmn-admin-minify && composer run less-qpmn-public-minify",
+        "pre-autoload-dump": "composer run less-qpmn",
+        "pre-archive-cmd": "composer run less-qpmn-minify",
+        "json-zh-lang": "wp --allow-root i18n make-json src/Languages/qp-market-network-zh_TW.po --no-purge",
+        "prod": "composer install --no-dev --prefer-dist --optimize-autoloader && composer run build-plugin",
+        "uat": "composer install --no-dev --prefer-dist --optimize-autoloader && composer run build-uat-plugin",
+        "build-plugin": "sh build-plugin.sh",
+        "build-uat-plugin": "sh build-uat-plugin.sh"
+    },
+    "archive": {
+        "exclude": [".env.example", "*.sh", "!.env", "/tmp", "/build", "!/vendor"]
+    },
+    "autoload": {
+        "psr-4": {
+            "QPMN\\Partner\\WP\\Core\\WPAdmin\\Includes\\": "src/WP/Core/wp-admin/includes/",
+            "QPMN\\Partner\\Pub\\": "src/Public/",
+            "QPMN\\Partner\\Tests\\": "tests/",
+            "QPMN\\Partner\\": ["src/"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "symfony/http-client": "^5.2",
+        "symfony/http-kernel": "^5.2",
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/http-foundation": "^5.3",
+        "monolog/monolog": "^2.3"
+    }
+}
